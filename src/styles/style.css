@@ -1,0 +1,50 @@
+#app-login-btn {
+	width: 160px;
+}
+
+.workingField {
+	background-color: #5e9cff;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 90vh;
+}
+
+.taskBlock {}
+
+.task {
+	margin-left: 12px;
+}
+
+
+.containerForTasks {
+	background-color: rgb(206, 206, 206);
+	border-radius: 10px;
+	width: 95%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#footerRow {
+	background-color: #1f75ff;
+	height: 60px;
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+#bottomText {
+	text-align: right;
+}
+
+.btmTxt {
+	font-weight: 700;
+}
