@@ -1,50 +1,58 @@
-#app-login-btn {
-	width: 160px;
+* {
+	transition: 0.3s !important;
 }
 
-.workingField {
-	background-color: #5e9cff;
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-right: auto;
-	margin-left: auto;
-	height: 90vh;
+button.show {
+	transform: rotate(-90deg);
 }
 
-.taskBlock {}
-
-.task {
-	margin-left: 12px;
+.alert {
+	animation: alert-hide 3s forwards;
 }
 
+@keyframes alert-hide {
+	0% {
+		opacity: 100;
+	}
 
-.containerForTasks {
-	background-color: rgb(206, 206, 206);
-	border-radius: 10px;
-	width: 95%;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	80% {
+		opacity: 100;
+	}
+
+	100% {
+		opacity: 0;
+	}
 }
 
-#footerRow {
-	background-color: #1f75ff;
-	height: 60px;
-	padding-right: 0;
-	padding-left: 0;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.footer {
-	position: absolute;
-	bottom: 0;
+.card-field {
+	padding: 10px;
 	width: 100%;
 }
 
-#bottomText {
-	text-align: right;
+.card {
+	word-break: break-all;
+	position: relative;
+	width: 90%;
 }
 
-.btmTxt {
-	font-weight: 700;
+
+.select-task_progress,
+.select-task_finished {
+	margin: 0 10px 5px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.select-task_progress:hover {
+	background-color: #ffc107;
+}
+
+.select-task_finished:hover {
+	background-color: #198754;
+}
+
+.info {
+	font-size: 11px;
+	color: cadetblue;
+	align-self: start;
 }

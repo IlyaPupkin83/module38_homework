@@ -33,6 +33,13 @@ module.exports = {
 					},
 				}, ],
 			},
+			{
+				test: /\.(jpe?g|png)$/i,
+				loader: 'file-loader',
+				options: {
+
+				},
+			},
 		],
 	},
 };
